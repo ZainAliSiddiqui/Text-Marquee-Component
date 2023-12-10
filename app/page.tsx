@@ -1,3 +1,9 @@
+import { TextMarquee } from "@components";
+
 export default function App() {
-	return <div>App</div>;
+	return (
+		<>
+			<TextMarquee />
+		</>
+	);
 }
